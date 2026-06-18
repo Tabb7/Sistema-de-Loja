@@ -1,4 +1,4 @@
----Tabela loja (Gabi e Tabbi)
+-- Tabela loja (Rafael e Tabbi)
 
 CREATE TABLE loja (
 	id_loja SERIAL PRIMARY KEY,
@@ -7,7 +7,7 @@ CREATE TABLE loja (
 	cnpj VARCHAR(20),
 	n_dono VARCHAR (100)
 );
----Tabela Cliente (Gabi e Tabbi)
+-- Tabela Cliente (Rafael e Tabbi)
 
 CREATE TABLE cliente (
 	id_cliente SERIAL PRIMARY KEY,
@@ -15,7 +15,7 @@ CREATE TABLE cliente (
 	telefone_cliente VARCHAR(20), 
 	cpf VARCHAR(12)
 );
----Tabela Produto (Gabi e Tabbi)
+-- Tabela Produto (Rafael e Tabbi)
 
 CREATE TABLE produto (
 	id_produto SERIAL PRIMARY KEY,
@@ -23,7 +23,7 @@ CREATE TABLE produto (
 	quantidade INT NOT NULL, 
 	preco NUMERIC(10,2) NOT NULL
 );
--- Tabela Venda (Gabi e Tabbi)
+-- Tabela Venda (Rafael e Tabbi)
 CREATE TABLE venda (
     id_venda SERIAL PRIMARY KEY,
     id_loja INT NOT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE venda (
         FOREIGN KEY (id_cliente)
         REFERENCES cliente(id_cliente)
 );
--- Tabela item_venda (Gabi e Tabbi)
+-- Tabela item_venda (Rafael e Tabbi)
 CREATE TABLE item_venda (
     id_item SERIAL PRIMARY KEY,
     id_venda INT NOT NULL,
