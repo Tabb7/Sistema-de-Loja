@@ -1,5 +1,5 @@
 # Sistema-de-Loja
-Sistema de Gerenciamento de Estoque feito por Arthur Tabbi e Gabriela oliveira.
+Sistema de Gerenciamento de Estoque feito por Arthur e Rafael.
 
 Descrição do Projeto:
 
