@@ -1,8 +1,7 @@
 package stockmanager_;
 
 import javax.swing.JOptionPane;
-import stockmanager_.entity.Produto;
-import stockmanager_db.ProdutoDAO;
+
 
 public class App {
     public static void main(String[] args) {
