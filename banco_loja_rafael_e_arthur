@@ -56,4 +56,13 @@ CREATE TABLE item_venda (
         REFERENCES produto(id_produto)
 );
 
+SQL
+
+CREATE TABLE produto (
+    id_produto SERIAL PRIMARY KEY,
+    nome_produto VARCHAR(100) NOT NULL,
+    quantidade INT NOT NULL,
+    preco NUMERIC(10, 2) NOT NULL
+);
+
 	
