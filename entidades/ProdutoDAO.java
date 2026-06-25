@@ -1,10 +1,10 @@
-package stockmanager_db;
+package stockmanager_;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import javax.swing.JOptionPane;
-import stockmanager_.entity.Produto;
+
 
 public class ProdutoDAO {
 
@@ -49,4 +49,6 @@ public class ProdutoDAO {
         }
         conn.close();
     }
+}
+
 }
