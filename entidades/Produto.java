@@ -1,4 +1,4 @@
-package stockmanager_.entity;
+package stockmanager_;
 
 public class Produto {
 
@@ -24,4 +24,6 @@ public class Produto {
         return preco;
     }
 }
+
+
 
